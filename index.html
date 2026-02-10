@@ -1,8 +1,90 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me | GitHub Portfolio</title>
 
-<html>
-  <head>
-    <title>Sample Web Page</title>
-    <link rel="stylesheet" type="text/css" href="flex.css" />
+    <!-- Base styles -->
+    <link rel="stylesheet" href="base.css">
 
-  </head>
+    <!-- Section styles -->
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="featured.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="dual.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+<div class="header" id="top">
+    <div class="header-left">
+        <img src="images/bird.png" alt="Logo">
+        <h1>Casa, Justin C.</h1>
+    </div>
+    <div class="header-right">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+</div>
+
+<div class="featured">
+    <img src="images/featured.jpg" alt="Featured Photo">
+    <div class="featured-text">
+        <h2>Software Engineer Aspirant</h2>
+        <p>Computer Science Student</p>
+    </div>
+</div>
+
+<div class="content about" id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Justin C. Casa, a sophomore BS Computer Science student at the University of the Philippines - Los Baños
+        and an aspiring software engineer with an expertise on both frontend and backend. 
+    </p>
+</div>
+
+<div class="content projects" id="projects">
+    <h2>Previous Projects</h2>
+    <div class="projects-row">
+        <div class="project-box">
+            <img src="images/project1.jpg">
+            <p>Library Management System (Python)</p>
+        </div>
+        <div class="project-box">
+            <img src="images/project2.png">
+            <p>City Pollution Cost Management (R)</p>
+        </div>
+        <div class="project-box">
+            <img src="images/project3.png">
+            <p>Online Storefront (Java)</p>
+        </div>
+    </div>
+</div>
+
+<div class="content skills">
+    <div class="skills-box" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>C</li>
+            <li>HTML & CSS</li>
+            <li>R</li>
+            <li>Java</li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="footer" id="contact">
+    <img src="images/bird.png">
+    <p>Email: jcasa@up.edu.ph</p>
+    <p>       casaj7338@gmail.com</p>
+    <p>GitHub: github.com/jazzcasa</p>
+    <p>© 2026 Casa, Justin C.</p>
+    <a href="#top">Back to Top</a>
+</div>
+
+</body>
+</html>
