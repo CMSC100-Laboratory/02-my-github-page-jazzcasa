@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+
+    /* Gray → Green gradient background */
+    background: linear-gradient(
+        135deg,
+        #d3d3d3 0%,
+        #b7c7b3 35%,
+        #7f8f82 65%,
+        #4a5c50 100%
+    );
+
+    color: #2f3e34;
+}

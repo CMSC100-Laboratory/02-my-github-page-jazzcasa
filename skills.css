@@ -1,0 +1,13 @@
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-box {
+    width: 48%;
+}
+
+.skills-box ul {
+    margin-left: 20px;
+    list-style: square;
+}

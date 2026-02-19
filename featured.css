@@ -1,0 +1,18 @@
+.featured {
+    width: 85%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.featured img {
+    width: 100%;
+    border: 5px solid #5d6d61;
+}
+
+.featured-text {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    background: rgba(255,255,255,0.85);
+    padding: 15px 25px;
+}
